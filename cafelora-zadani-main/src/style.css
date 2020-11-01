@@ -236,7 +236,12 @@ nav a:hover {
   height: 100vh;
 
   color: white;
-  background-image: url('./img/gallery.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url('./img/gallery.jpg');
   background-size: cover;
   background-position: top center;
   background-attachment: fixed;
@@ -299,4 +304,17 @@ nav a:hover {
   .nav-btn {
     display: none;
   }
+}
+
+.historie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  padding-top: 20rem;
+  padding-left: 20rem;
+
+  font-size: 1.2rem;
 }
