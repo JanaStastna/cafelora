@@ -295,4 +295,8 @@ nav a:hover {
 
     text-align: center;
   }
+
+  .nav-btn {
+    display: none;
+  }
 }
