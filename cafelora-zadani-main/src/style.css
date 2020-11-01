@@ -238,13 +238,15 @@ nav a:hover {
   color: white;
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.2)
     ),
     url('./img/gallery.jpg');
   background-size: cover;
   background-position: top center;
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;
 }
 
 .contacts {
@@ -313,4 +315,6 @@ nav a:hover {
   align-items: center;
   text-align: center;
   font-size: 1.2rem;
+  width: 85%;
+  padding: 50px;
 }
